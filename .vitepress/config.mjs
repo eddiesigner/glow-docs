@@ -23,12 +23,23 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: 'Install Theme', link: '/basics/install-theme' },
+        ],
+      },
+      {
+        text: 'Core Features',
+        items: [
+          { text: 'Hero Section', link: '/core/hero-section' },
+        ],
+      },
+      {
+        text: 'Additional Features',
+        items: [
+          { text: 'Icons', link: '/additional-features/icons' },
+        ],
+      },
     ],
     footer: {
       message: 'Designed and developed with ❤️ by <a href="https://eduardogomez.io" target="_blank">Eduardo Gómez</a>',
