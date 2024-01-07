@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /basics/install-theme
     - theme: alt
       text: Live Demo
       link: https://glow.eduardogomez.io
