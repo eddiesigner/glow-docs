@@ -38,7 +38,9 @@ export default defineConfig({
       {
         text: 'Additional Features',
         items: [
-          { text: 'Icons', link: '/additional-features/icons' },
+          { text: 'Tables', link: '/additional-features/tables' },
+          { text: 'Theme Development', link: '/additional-features/theme-development' },
+          { text: 'Resources', link: '/additional-features/resources' },
         ],
       },
     ],
