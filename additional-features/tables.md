@@ -1,6 +1,6 @@
 # Tables
 
-If you want to add a table, you should use HTML code similar to this one:
+To include a table, utilize HTML code similar to the following:
 
 ```html
 <div class="gl-table-container">
@@ -34,4 +34,4 @@ If you want to add a table, you should use HTML code similar to this one:
 </div>
 ```
 
-The container with the class `gl-table-container` is important, please do not forget to add it because this container allows the table to work nicely on mobile devices.
+The inclusion of the `gl-table-container` class in the container is crucial. Please remember to add it, as this container ensures optimal functionality of the table on mobile devices.

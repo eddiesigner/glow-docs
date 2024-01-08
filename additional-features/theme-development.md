@@ -58,6 +58,8 @@ If everything goes well you should see this page in your browser:
 
 After you enter your own credentials you still need to activate the theme in the Ghost Admin: `Settings` --> `Design and branding` --> `Change theme` --> `Installed themes`
 
+![](https://res.cloudinary.com/edev/image/upload/v1704744457/glow/CleanShot_2024-01-08_at_21.06.36.png)
+
 You only need to do this once, the next time you run the command everything should be ready automatically.
 
 Now you should have an instant development setup and when you make changes you will see them right into the browser (hot-reloading).
