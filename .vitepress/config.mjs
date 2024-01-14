@@ -49,6 +49,7 @@ export default defineConfig({
         text: 'Additional Features',
         items: [
           { text: 'Social Icons', link: '/additional-features/social-icons' },
+          { text: 'Code Highlighting', link: '/additional-features/code-highlighting' },
           { text: 'Tables', link: '/additional-features/tables' },
           { text: 'Buttons and Forms', link: '/additional-features/buttons-forms' },
           { text: 'Theme Development', link: '/additional-features/theme-development' },

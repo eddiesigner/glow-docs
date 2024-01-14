@@ -12,13 +12,19 @@ Glow provides custom templates for Sign Up, Sign In, Newsletter, Membership and 
 
 This page is where users can sign up on your site. If they are already free members then they will see the subscription plans you have in place and will be able to pay to become paid members.
 
+[Live demo](https://glow.eduardogomez.io/signup/)
+
 ### Sign In
 
 On this page members of your site will be able to sign in. The only thing they will need is their email address in order to receive a magic link with which to sign in.
 
+[Live demo](https://glow.eduardogomez.io/signin/)
+
 ### Membership
 
 If users visiting this page are not registered or are free members they will see the subscription plans you have in place and will be able to pay to become paid members.
+
+[Live demo](https://glow.eduardogomez.io/membership/)
 
 ### Account
 
@@ -29,6 +35,8 @@ If they are paid members then they will see a list of their subscriptions, each 
 ### Newsletter
 
 On this page any user can enter their email address to receive in their inbox content from your site periodically.
+
+[Live demo](https://glow.eduardogomez.io/newsletter/)
 
 ## Enabling Members Pages
 
