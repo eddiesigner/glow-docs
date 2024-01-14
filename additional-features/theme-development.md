@@ -10,11 +10,13 @@ The following steps will guide you so that you can have a development environmen
 
 2. Install [Nodejs](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm)
 
-3. Make a backup of the theme folder, just in case
+3. Create a backup of the theme file (`glow.zip`)
 
-4. Open a terminal and change to the `glow/src` directory
+4. Unzip the theme file
 
-5. Run `npm install`
+5. Open a terminal and change to the `glow/src` directory
+
+6. Run `npm install`
 
 ::: warning
 Please ignore the following error if it appears after running `npm install`:
@@ -24,29 +26,29 @@ husky > Failed to install
 ```
 :::
 
-6. Run `npm run get-database` to get the Ghost database dump
+7. Run `npm run get-database` to get the Ghost database dump
 
-7. From Ghost 4 onwards you need to pass your Stripe Webhook Secret as an environment variable which you can get from the [Webhooks page](https://dashboard.stripe.com/webhooks) in your dashboard
+8. From Ghost 4 onwards you need to pass your Stripe Webhook Secret as an environment variable which you can get from the [Webhooks page](https://dashboard.stripe.com/webhooks) in your dashboard
 
-8. Open the file `src/docker-compose.yml` with a text/code editor and search for the following piece of code:
+9. Open the file `src/docker-compose.yml` with a text/code editor and search for the following piece of code:
 
 ```
 WEBHOOK_SECRET:
 ```
 
-9. Copy the **Signing Secret** from your Stripe Webhook and paste it in that line of code, it should look something like this:
+10. Copy the **Signing Secret** from your Stripe Webhook and paste it in that line of code, it should look something like this:
 
 ```
 WEBHOOK_SECRET: whsec_xxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-10. Save your changes
+11. Save your changes
 
 For more information on how to set up your Stripe account please check out [this link](https://ghost.org/help/setup-members/)
 
-11. Start Docker
+12. Start Docker
 
-12. Run `npm run docker-watch`
+13. Run `npm run docker-watch`
 
 ::: info
 You will probably need to wait a little bit, even if a browser tab is opened, please keep waiting since the whole image and database will be created from scratch, probably it would take a few minutes, this will happen only the first time, the next time it should be faster.
