@@ -94,11 +94,11 @@ On the Membership page, unlike the other pages, you can add your own content, wh
 
 ## Portal
 
-If you want to use [Portal](https://ghost.org/help/setting-up-portal/) for all Members functionalities instead of the ones provided by the theme you can enable the `Portal for membership experience` setting found in the theme settings as shown in the following screenshot:
+If you want to use [Portal](https://ghost.org/help/setting-up-portal/) for all Members functionalities instead of the ones provided by the theme you can enable the `Portal for membership experience` setting found in the [theme settings](/basics/theme-settings#portal-for-membership-experience) as shown in the following screenshot:
 
 ![](https://res.cloudinary.com/edev/image/upload/v1705190843/glow/CleanShot_2024-01-14_at_01.05.20.jpg)
 
-By enabling this option all links and buttons for sign up, sign in, newsletter, account and other membership-related links will use the Portal interface instead of linking to the custom pages that the theme provides.
+By enabling this option all links and buttons for sign up, sign in, newsletter, account and other membership-related features will use the Portal interface instead of linking to the custom pages that the theme provides.
 
 This also means that **if you want to use Portal you don't need to follow the steps described above** in the setup section as the theme will use the Portal interface itself that Ghost provides by default.
 
