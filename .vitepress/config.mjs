@@ -57,6 +57,7 @@ export default defineConfig({
         ],
       },
     ],
+    outline: [2, 3],
     footer: {
       message: 'Designed and developed with ❤️ by <a href="https://eduardogomez.io" target="_blank">Eduardo Gómez</a>',
       copyright: 'Copyright © 2024 - present'

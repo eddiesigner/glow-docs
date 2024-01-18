@@ -136,21 +136,51 @@ You can find all the site wide settings in `Settings` --> `Design & branding` --
 
 ### Hero Layout
 
+Glow offers two different types of layouts for the hero section. The default design or layout is the one you can see on the homepage of the [demo site](https://glow.eduardogomez.io/); this layout displays text on the left side and an optional image on the right side. On the other hand, the alternative layout positions the text right in the center of the page with an optional image as the background, which blends with the background color, as shown in the following screenshot:
+
+![](https://res.cloudinary.com/edev/image/upload/v1705611102/glow/CleanShot_2024-01-18_at_21.50.20_1.jpg)
+
+If you wish to use the alternative layout, you can select the `Large background` option available in the `Hero layout` setting. 
+
 ![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20.jpg)
+
+:::info
+In both cases, if you do not select an image, the theme will use a similar layout that displays centered text with a larger font.
+:::
 
 ### Hero Title
 
+By default, the theme will use the title of the publication as the title of the hero section. If you want to display a custom text instead, you can set it in the `Hero title` setting, as shown in the following screenshot:
+
 ![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20_2.jpg)
+
+If you want to revert the change and display the publication title, you can simply clear the text field.
 
 ### Hero Description
 
+By default, the theme will use the description of the publication as the description text of the hero section (_aka_ tagline). If you want to display a custom text instead, you can set it in the `Hero description` setting, as shown in the following screenshot:
+
 ![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20_3.jpg)
+
+If you want to revert the change and display the publication description, you can simply clear the text field.
 
 ### Hero Image
 
+In addition to a title and description, you can also set the image you want to appear in the hero section to further customize the homepage. To do this, simply upload the desired image in the `Hero image` setting, as shown in the following screenshot:
+
 ![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.42.33.jpg)
 
+:::info
+The theme does not use the publication cover by default because, in case you want to maintain a more minimalist design without an image, deleting the cover would also remove it from social media previews and search results.
+:::
+
 ### Use Custom Call to Action
+
+By default, Glow displays a button in the first section of the homepage that, when pressed, will redirect users to the [registration page](https://glow.eduardogomez.io/signup) for subscribing to your publication or open the Portal interface for logging in if the `Portal for membership experience` setting is enabled. This button shows a predefined text and is visible to users who are not yet subscribers. Once they register and log in, the button becomes unavailable for such users.
+
+![](https://res.cloudinary.com/edev/image/upload/v1705609744/glow/CleanShot_2024-01-18_at_21.27.07.jpg)
+
+If you want to use a custom Call To Action button that is always available for any user, you can configure it in the theme options. Simply enable the `Use custom CTA` setting. Once enabled, both the custom text and URL that you set in the `Custom CTA text` and `Custom CTA url` settings will replace the button label and its associated URL.
 
 ![](https://res.cloudinary.com/edev/image/upload/v1705359182/glow/CleanShot_2024-01-15_at_23.51.16.jpg)
 
@@ -185,5 +215,17 @@ If you want to disable this functionality, you can inject the following code in 
 ```html
 <script>
   var disableQuoteSharing = true;
+</script>
+```
+
+### Disable Heading Anchors
+
+When hovering over headings within a post, the theme displays an anchor that acts as a direct link to that particular section, as shown in the following screenshot:
+
+If you want to disable this functionality, you can inject the following code in `Settings` -> `Code injection` -> `Site Footer`
+
+```html
+<script>
+  var disableHeadingAnchors = true;
 </script>
 ```
