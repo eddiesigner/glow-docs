@@ -2,16 +2,14 @@
 
 Glow Theme Documentation powered by [VitePress](https://vitepress.dev/).
 
-## Installation
-
-### Prerequisites
+## Prerequisites
 
 - [Node.js](https://nodejs.org/) version 18 or higher.
 - Terminal for accessing VitePress via its command line interface (CLI).
 - Text Editor with [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax support.
   - [VSCode](https://code.visualstudio.com/) is recommended, along with the [official Vue extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
-### Setup
+## Setup
 
 Install dependencies by running:
 
@@ -20,19 +18,17 @@ Install dependencies by running:
 npm install
 ```
 
-### Up and Running
+## Up and Running
 
 The following npm scripts are available:
 
 ```json
 {
-  ...
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  ...
 }
 ```
 
