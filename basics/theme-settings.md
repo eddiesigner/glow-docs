@@ -52,7 +52,7 @@ Glow includes a wide variety of fonts that you can use to customize the appearan
 
 You can choose the font you want for both the titles and the rest of the content displayed on all pages of the site. All fonts are available in both settings, regardless of whether they are serif fonts or sans serif fonts, providing an immense number of possible combinations.
 
-By default, Glow uses the `Inter` font for titles and the `Be Vietnam Pro` font for the rest of the content. If you want to change the font for titles, you can do so in the `Title font` setting, and if you want to change the font for the rest of the content, you can do so in the `Body font` setting, as shown in the following screenshot:
+By default, Glow uses the `Inter` font for titles and the `Geist` font for the rest of the content. If you want to change the font for titles, you can do so in the `Title font` setting, and if you want to change the font for the rest of the content, you can do so in the `Body font` setting, as shown in the following screenshot:
 
 ![](https://res.cloudinary.com/edev/image/upload/v1705359017/glow/CleanShot_2024-01-15_at_23.48.58.jpg)
 
