@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Glow Theme Documentation",
+  title: "Glow Theme Docs",
   description: "Theme official documentation",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
