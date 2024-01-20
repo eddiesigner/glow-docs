@@ -217,15 +217,3 @@ If you want to disable this functionality, you can inject the following code in 
   var disableQuoteSharing = true;
 </script>
 ```
-
-### Disable Heading Anchors
-
-When hovering over headings within a post, the theme displays an anchor that acts as a direct link to that particular section, as shown in the following screenshot:
-
-If you want to disable this functionality, you can inject the following code in `Settings` -> `Code injection` -> `Site Footer`
-
-```html
-<script>
-  var disableHeadingAnchors = true;
-</script>
-```
