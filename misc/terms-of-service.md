@@ -36,7 +36,7 @@ The documentation describes the steps to follow to get the most out of this them
 
 ## Payment
 
-Payments are handled by [Lemon Squeezy](https://www.lemonsqueezy.com/), I do not store or collect your payment card details. For more information please visit the [Lemon Squeezy Terms](https://www.lemonsqueezy.com/terms).
+Payments are handled by [Gumroad](https://gumroad.com/), I do not store or collect your payment card details. For more information please visit the [Gumroad Terms](https://gumroad.com/terms).
 
 ## Refunds
 

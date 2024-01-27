@@ -19,7 +19,7 @@ export default defineConfig({
       { text: 'Terms of Service', link: '/misc/terms-of-service' },
       { text: 'Features', link: 'https://glow.eduardogomez.io/features' },
       { text: 'Style Guide', link: 'https://glow.eduardogomez.io/style-guide' },
-      { text: 'Buy Glow', link: 'https://www.lemonsqueezy.com/' },
+      { text: 'Buy Glow', link: 'https://eddiesigner.gumroad.com/l/glow' },
     ],
     sidebar: [
       {
