@@ -54,7 +54,7 @@ You can choose the font you want for both the titles and the rest of the content
 
 By default, Glow uses the `Inter` font for titles and the `Geist` font for the rest of the content. If you want to change the font for titles, you can do so in the `Title font` setting, and if you want to change the font for the rest of the content, you can do so in the `Body font` setting, as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705359017/glow/CleanShot_2024-01-15_at_23.48.58.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711203540/glow/CleanShot_2024-03-23_at_15.17.49.jpg)
 
 :::info
 The font files are included in the theme locally, so they will be hosted on your server without the need to load them from external services such as Google Fonts, ensuring that your site complies with the General Data Protection Regulation.
@@ -66,21 +66,13 @@ To add a unique and beautiful touch to your publication, the theme displays a gl
 
 You can change the colors individually through the `Glow color 1` and `Glow color 2` settings. Each of them allows you to enter the color value manually in hexadecimal format or visually using the available color picker.
 
-![](https://res.cloudinary.com/edev/image/upload/v1705358849/glow/CleanShot_2024-01-15_at_23.46.18.jpg)
-
-### Disable Glow
-
-If you want your publication to have a simpler and more minimalist appearance, you can disable the glow that is displayed in various parts of the site. Keep in mind that by disabling this option, the colors you have defined for the glow will no longer be used.
-
-To disable it, simply make sure to uncheck the `Enable glow` setting, as shown in the following screenshot:
-
-![](https://res.cloudinary.com/edev/image/upload/v1705358298/glow/CleanShot_2024-01-15_at_23.36.43.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711203648/glow/CleanShot_2024-03-23_at_15.19.43.jpg)
 
 ### Portal for Membership Experience
 
 If you want to use [Portal](https://ghost.org/help/setting-up-portal/) for all Members functionalities instead of the ones provided by the theme you can enable the `Portal for membership experience` setting as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705358099/glow/CleanShot_2024-01-15_at_23.33.49.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711203956/glow/CleanShot_2024-03-23_at_15.24.31.jpg)
 
 By enabling this option all links and buttons for sign up, sign in, newsletter, account and other membership-related features will use the Portal interface instead of linking to the custom pages that the theme provides.
 
@@ -90,7 +82,7 @@ By default, the theme will display a footnote in the footer that includes the co
 
 If you wish to replace that text with your own, you can do so in the `Footnote text override` setting, as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705357940/glow/CleanShot_2024-01-15_at_23.31.11.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204100/glow/CleanShot_2024-03-23_at_15.27.18.jpg)
 
 If for some reason you wish to restore the default text, just clear the text you have entered in the corresponding field.
 
@@ -114,6 +106,20 @@ By default, Glow displays up to 10 entries per page. If you wish to modify this 
 
 6. Zip the theme and upload it again
 
+### Disable Glow
+
+If you want your publication to have a simpler and more minimalist appearance, you can disable the glow that is displayed in various parts of the site. Keep in mind that by disabling this option, the colors you have defined for the glow will no longer be used.
+
+To disable it, simply inject the following code in `Settings` -> `Code injection` -> `Site Header`
+
+```html
+<style>
+  :root {
+    --show-glow: none;
+  }
+</style>
+```
+
 ### Disable Sticky Header
 
 The main navigation menu located at the top of the site automatically hides when scrolling down and reappears when scrolling up. It remains visible until you scroll in the opposite direction again.
@@ -134,25 +140,11 @@ These settings will help you customize the appearance of the homepage, particula
 
 You can find all the site wide settings in `Settings` --> `Design & branding` --> `Homepage`
 
-### Hero Layout
-
-Glow offers two different types of layouts for the hero section. The default design or layout is the one you can see on the homepage of the [demo site](https://glow.eduardogomez.io/); this layout displays text on the left side and an optional image on the right side. On the other hand, the alternative layout positions the text right in the center of the page with an optional image as the background, which blends with the background color, as shown in the following screenshot:
-
-![](https://res.cloudinary.com/edev/image/upload/v1705611102/glow/CleanShot_2024-01-18_at_21.50.20_1.jpg)
-
-If you wish to use the alternative layout, you can select the `Large background` option available in the `Hero layout` setting. 
-
-![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20.jpg)
-
-:::info
-In both cases, if you do not select an image, the theme will use a similar layout that displays centered text with a larger font.
-:::
-
 ### Hero Title
 
 By default, the theme will use the title of the publication as the title of the hero section. If you want to display a custom text instead, you can set it in the `Hero title` setting, as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20_2.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204335/glow/CleanShot_2024-03-23_at_15.30.37.jpg)
 
 If you want to revert the change and display the publication title, you can simply clear the text field.
 
@@ -160,7 +152,7 @@ If you want to revert the change and display the publication title, you can simp
 
 By default, the theme will use the description of the publication as the description text of the hero section (_aka_ tagline). If you want to display a custom text instead, you can set it in the `Hero description` setting, as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.39.20_3.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204420/glow/CleanShot_2024-03-23_at_15.32.39.jpg)
 
 If you want to revert the change and display the publication description, you can simply clear the text field.
 
@@ -168,7 +160,7 @@ If you want to revert the change and display the publication description, you ca
 
 In addition to a title and description, you can also set the image you want to appear in the hero section to further customize the homepage. To do this, simply upload the desired image in the `Hero image` setting, as shown in the following screenshot:
 
-![](https://res.cloudinary.com/edev/image/upload/v1705358628/glow/CleanShot_2024-01-15_at_23.42.33.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204549/glow/CleanShot_2024-03-23_at_15.34.44.jpg)
 
 :::info
 The theme does not use the publication cover by default because, in case you want to maintain a more minimalist design without an image, deleting the cover would also remove it from social media previews and search results.
@@ -178,11 +170,61 @@ The theme does not use the publication cover by default because, in case you wan
 
 By default, Glow displays a button in the first section of the homepage that, when pressed, will redirect users to the [registration page](https://glow.eduardogomez.io/signup) for subscribing to your publication or open the Portal interface for logging in if the `Portal for membership experience` setting is enabled. This button shows a predefined text and is visible to users who are not yet subscribers. Once they register and log in, the button becomes unavailable for such users.
 
-![](https://res.cloudinary.com/edev/image/upload/v1705609744/glow/CleanShot_2024-01-18_at_21.27.07.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204863/glow/CleanShot_2024-03-23_at_15.40.05.jpg)
 
 If you want to use a custom Call To Action button that is always available for any user, you can configure it in the theme options. Simply enable the `Use custom CTA` setting. Once enabled, both the custom text and URL that you set in the `Custom CTA text` and `Custom CTA url` settings will replace the button label and its associated URL.
 
-![](https://res.cloudinary.com/edev/image/upload/v1705359182/glow/CleanShot_2024-01-15_at_23.51.16.jpg)
+![](https://res.cloudinary.com/edev/image/upload/v1711204745/glow/CleanShot_2024-03-23_at_15.37.54.jpg)
+
+### Number of Latest Posts
+
+On the homepage, a section displaying the latest posts is shown. By default, up to 5 posts are displayed. If you wish to adjust this limit, you can do so by selecting a different number in the setting `Latest posts limit` as shown in the following screenshot:
+
+![](https://res.cloudinary.com/edev/image/upload/v1711209944/glow/CleanShot_2024-03-23_at_17.03.45.jpg)
+
+The available options range from a limit of 3 posts to a maximum of 10.
+
+:::warning
+Please note that the number you select cannot exceed the value defined in the `Post Per Page` setting. If the limit exceeds that value, the remaining posts simply will not be displayed.
+:::
+
+### Featured Tags
+
+Glow offers the possibility of displaying sections of featured tags on the homepage. You can choose the tags you want to highlight in this section, and there is no limit to the number of tags you can add.
+
+To add sections of featured tags, you can do so in the `Featured tags` setting. In this field, you should enter a list of **tag slugs separated by commas**, as shown in the following screenshot:
+
+![](https://res.cloudinary.com/edev/image/upload/v1711209943/glow/CleanShot_2024-03-23_at_17.03.45_2.jpg)
+
+You can view the slug of each tag when you create or edit it in the Ghost Admin, as shown in the following screenshot:
+
+![](https://res.cloudinary.com/edev/image/upload/v1711211818/glow/CleanShot_2024-03-23_at_17.35.54.jpg)
+
+If you enter the slug of a tag that does not exist, it will be ignored, and the section for that tag will not be displayed.
+
+### Number of Posts in Featured Tags Section
+
+By default, the theme displays up to 4 posts for each featured tag section. If you wish to adjust this limit, you can do so by injecting the following code in `Settings` -> `Code injection` -> `Site Footer`
+
+```html
+<script>
+  var featuredTagsSectionPostsLimit = 6;
+</script>
+```
+
+:::warning
+Please note that the number you set cannot exceed the value defined in the `Post Per Page` setting. If the limit exceeds that value, the remaining posts simply will not be displayed.
+:::
+
+### Disable Hero Animation
+
+By default, in the hero section of the homepage, you can see an animation where the background image becomes larger while simultaneously reducing its opacity according to the scroll movement. If for any reason you wish to disable this animation, you can inject the following code in `Settings` -> `Code injection` -> `Site Footer`
+
+```html
+<script>
+  var disableHomeHeroAnimation = true;
+</script>
+```
 
 ## Post Settings
 

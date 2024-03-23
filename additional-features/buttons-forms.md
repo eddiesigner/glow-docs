@@ -18,6 +18,20 @@ To apply the theme styles to a button or a link, ensure that you include the `gl
 </a>
 ```
 
+You can add the `secondary` class to the button or link to apply the secondary style and the `small` class to make it smaller, like this:
+
+```html
+<!-- Secondary -->
+<button class="gl-button secondary">
+  Secondary button
+</button>
+
+<!-- Small -->
+<a href="#" class="gl-button small">
+  Small link
+</a>
+```
+
 ## Label
 
 To apply the theme styles to a `<label>`, ensure that you include the `gl-label` class in the respective element, like this:
