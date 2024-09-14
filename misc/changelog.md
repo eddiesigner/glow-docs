@@ -1,5 +1,27 @@
 # Changelog
 
+## Version 1.2.0
+
+> Released on 16/09/2024
+
+* New custom setting to upload a logo for dark mode (more details in the [publication settings](/basics/publication-settings#publication-logo))
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* package.json
+* partials/logo.hbs
+* partials/newsletter.hbs
+* partials/post-paywall.hbs
+* src/docker-compose.yml
+* src/sass/common/_theme.scss
+* src/sass/components/general/_logo.scss
+* src/sass/components/newsletter/_newsletter-form.scss
+* src/sass/components/posts/_post-paywall.scss
+````
+
 ## Version 1.1.0
 
 > Released on 15/07/2024

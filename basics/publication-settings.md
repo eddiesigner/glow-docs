@@ -43,17 +43,19 @@ The logo is displayed at the beginning of the main navigation menu at the top of
 
 ![](https://res.cloudinary.com/edev/image/upload/v1705230690/ghost/CleanShot_2024-01-14_at_12.11.00.png)
 
-In case you provide a logo, it is advisable for it to be an image in **SVG** format with a solid color (such as black), as the theme will attempt to invert the color when the dark theme is activated, ensuring the logo remains visible.
+::: warning
+The previous behavior where the theme tried to invert the color of the logo in dark mode is no longer supported from version 1.2.0 of the theme, now you can upload an additional logo for dark mode.
+:::
 
-If you want to disable this behavior so that the logo remains the same color at all times, you can inject the following code in `Settings` --> `Code injection` --> `Site Header`:
+#### Dark Mode Logo
 
-```html
-<style>
-  [theme-mode="dark"] {
-    --logo-invert: 0;
-  }
-</style>
-```
+If your logo does not look good in dark mode, you can upload an additional logo to be displayed when dark mode is activated. You can upload your second logo in the theme design settings (`Settings` --> `Design & branding` --> `Site wide`) as shown below:
+
+![](https://res.cloudinary.com/edev/image/upload/v1726330912/glow/CleanShot_2024-09-14_at_18.20.39.png)
+
+::: warning
+The dark mode logo option is only available if you're using Glow 1.2.0 or later.
+:::
 
 ### Publication Cover
 
