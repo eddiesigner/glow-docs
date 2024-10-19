@@ -1,5 +1,35 @@
 # Changelog
 
+## Version 1.3.0
+
+> Released on 21/10/2024
+
+* Added "Edit account info" link in the account page
+* Added Threads icon
+* Improved the styles for bookmark, audio, download, nft and product cards
+* Added styles for disabled buttons
+* Fixed an issue where the theme didn't handle edge cases properly for the featured tags section in the home page
+* Fixed an issue where embeds were not properly centered
+* Fixed some styles for checkboxes and radio buttons
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* assets/images/icons.svg
+* locales/en.json
+* locales/es.json
+* members/account.hbs
+* package.json
+* partials/theme-selector.hbs
+* src/docker-compose.yml
+* src/js/home.js
+* src/sass/components/general/_button.scss
+* src/sass/components/general/_forms.scss
+* src/sass/components/posts/_post-content.scss
+````
+
 ## Version 1.2.0
 
 > Released on 16/09/2024
