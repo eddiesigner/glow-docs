@@ -4,7 +4,7 @@
 
 > Released on 18/11/2024
 
-* Added a new custom setting to allow having pagination in the home page for the latest posts
+* Added a new custom setting to allow having pagination in the home page for the latest posts (more details in the [theme settings](/basics/theme-settings#show-pagination))
 * Redirect to Membership in Sign Up page if logged in but not paying, redirect to Home page if paying member
 * Updated Docker image (development only)
 * Bump version number
