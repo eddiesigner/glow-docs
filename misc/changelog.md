@@ -1,5 +1,25 @@
 # Changelog
 
+## Version 1.4.0
+
+> Released on 18/11/2024
+
+* Added a new custom setting to allow having pagination in the home page for the latest posts
+* Redirect to Membership in Sign Up page if logged in but not paying, redirect to Home page if paying member
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* home.hbs
+* members/signup.hbs
+* package.json
+* src/docker-compose.yml
+* src/sass/components/home/_featured-section.scss
+* src/sass/components/posts/_posts-feed.scss
+````
+
 ## Version 1.3.0
 
 > Released on 21/10/2024

@@ -184,8 +184,20 @@ On the homepage, a section displaying the latest posts is shown. By default, up 
 
 The available options range from a limit of 3 posts to a maximum of 10.
 
-:::warning
+::: warning
 Please note that the number you select cannot exceed the value defined in the `Post Per Page` setting. If the limit exceeds that value, the remaining posts simply will not be displayed.
+:::
+
+### Show Pagination
+
+By default Glow displays an excerpt of the latest posts on the home page, if the user wants to browse through all available posts, they can do so by clicking on the "Latest Posts" link at the top of the section. If you want pagination buttons to be visible in the latest posts section, you can enable the `Show pagination` option as shown in the following screenshot:
+
+![](https://res.cloudinary.com/edev/image/upload/v1731852470/glow/CleanShot_2024-11-17_at_15.06.41.png)
+
+This is especially useful if for some reason you don't want to display featured tag sections on the home page and instead prefer to have users browse all available posts from the home page.
+
+::: info
+This setting is available from version 1.4.0 of the theme.
 :::
 
 ### Featured Tags
