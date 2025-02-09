@@ -60,6 +60,20 @@ By default, Glow uses the `Inter` font for titles and the `Geist` font for the r
 The font files are included in the theme locally, so they will be hosted on your server without the need to load them from external services such as Google Fonts, ensuring that your site complies with the General Data Protection Regulation.
 :::
 
+### Native Custom Fonts
+
+As of version 1.5.0 of the theme, support for [custom fonts](https://ghost.org/changelog/custom-fonts/) has been added, this means that it is now possible to replace the default fonts of the theme with the fonts that Ghost offers natively. This allows publishers to have more control over their branding and have a wider range of options to customize their publication.
+
+This new option can be found in the design **Brand settings** as shown below:
+
+![](https://res.cloudinary.com/edev/image/upload/v1739129965/glow/CleanShot_2025-02-09_at_20.38.50.png)
+
+If you want to return to the default fonts, simply select the **Theme default** option in the corresponding field.
+
+:::info
+This option is only available if you're using Ghost 5.101.0 or later and Glow 1.5.0 or later.
+:::
+
 ### Glow Colors
 
 To add a unique and beautiful touch to your publication, the theme displays a glow in various parts of the site (hence its name). This glow is composed of two colors, which are `#FF64C1` and `#FF9447` by default. As expected, the theme allows you to customize both colors to suit your taste and preferences.

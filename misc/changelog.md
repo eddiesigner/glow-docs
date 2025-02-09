@@ -1,5 +1,67 @@
 # Changelog
 
+## Version 1.5.0
+
+> Released on 10/02/2025
+
+* Added support for [native custom fonts](/basics/theme-settings#native-custom-fonts)
+* Added Bluesky icon
+* Added German translations
+* Fixed an issue where the price of a subscription plan had a wrong format under certain circumstances
+* Updated Docker image (development only)
+* Bump version number
+
+````
+New Files:
+
++ locales/de.json
+
+Modified Files: 
+
+* assets/images/icons.svg
+* members/account.hbs
+* package.json
+* partials/fonts/albert-sans.hbs
+* partials/fonts/alegreya.hbs
+* partials/fonts/archivo.hbs
+* partials/fonts/be-vietnam-pro.hbs
+* partials/fonts/bespoke-slab.hbs
+* partials/fonts/bricolage-grotesque.hbs
+* partials/fonts/dm-sans.hbs
+* partials/fonts/domine.hbs
+* partials/fonts/epilogue.hbs
+* partials/fonts/fira-sans.hbs
+* partials/fonts/fraunces.hbs
+* partials/fonts/geist.hbs
+* partials/fonts/general-sans.hbs
+* partials/fonts/hind.hbs
+* partials/fonts/hubot-sans.hbs
+* partials/fonts/inter.hbs
+* partials/fonts/literata.hbs
+* partials/fonts/lora.hbs
+* partials/fonts/mona-sans.hbs
+* partials/fonts/newsreader.hbs
+* partials/fonts/noto-serif.hbs
+* partials/fonts/onest.hbs
+* partials/fonts/piazzolla.hbs
+* partials/fonts/plus-jakarta-sans.hbs
+* partials/fonts/poppins.hbs
+* partials/fonts/roboto-slab.hbs
+* partials/fonts/roboto.hbs
+* partials/fonts/rowan.hbs
+* partials/fonts/rubik.hbs
+* partials/fonts/satoshi.hbs
+* partials/fonts/sora.hbs
+* partials/fonts/source-sans.hbs
+* partials/fonts/source-serif.hbs
+* partials/fonts/spline-sans.hbs
+* partials/fonts/urbanist.hbs
+* partials/fonts/vollkorn.hbs
+* partials/fonts/zodiak.hbs
+* src/docker-compose.yml
+* src/sass/common/_mixins.scss
+````
+
 ## Version 1.4.0
 
 > Released on 18/11/2024

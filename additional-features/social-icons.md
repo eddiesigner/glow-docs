@@ -9,6 +9,7 @@ Below is a table with all the available icons and their respective IDs, which ar
 | Apple Podcasts  | `applepodcasts` |
 | Behance         | `behance` |
 | Blogger         | `blogger` |
+| Bluesky         | `bluesky` |
 | CodePen         | `codepen` |
 | DeviantArt      | `deviantart` |
 | Discord         | `discord` |
