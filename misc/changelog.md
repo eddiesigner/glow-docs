@@ -1,5 +1,22 @@
 # Changelog
 
+## Version 1.5.1
+
+> Released on 15/02/2025
+
+* Fixed an issue where the wrong layout was displayed on subsequent pages of the home page navigation when the theme setting "Show pagination" was enabled
+* Bump version number
+
+````
+Modified Files:
+
+* home.hbs
+* index.hbs
+* package.json
+* src/sass/components/general/_generic-header.scss
+* src/sass/components/taxonomy/_taxonomy-header.scss
+````
+
 ## Version 1.5.0
 
 > Released on 10/02/2025
