@@ -1,5 +1,28 @@
 # Changelog
 
+## Version 1.5.2
+
+> Released on 31/05/2025
+
+* Added support for [more staff social links](https://ghost.org/changelog/social-links/)
+* Added Mastodon icon
+* Show yearly plans by default in Membership page
+* Fixed a typo in "Subscribe now" translation
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified Files:
+
+* assets/images/icons.svg
+* author.hbs
+* members/membership.hbs
+* package.json
+* src/docker-compose.yml
+* src/sass/components/authors/_author-meta.scss
+
+````
+
 ## Version 1.5.1
 
 > Released on 15/02/2025
