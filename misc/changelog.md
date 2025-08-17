@@ -1,5 +1,24 @@
 # Changelog
 
+## Version 1.6.0
+> Released on 18/08/2025
+
+* **Ghost 6 support** 🎉
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* README.md
+* authors.hbs
+* members/membership.hbs
+* package.json
+* partials/tags-slider.hbs
+* src/docker-compose.yml
+* tags.hbs
+````
+
 ## Version 1.5.2
 
 > Released on 31/05/2025
