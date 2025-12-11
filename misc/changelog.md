@@ -9,7 +9,7 @@
 * Removed support for [line numbers in code blocks](/additional-features/code-highlighting#line-numbers)
 * Use Vite instead of Webpack for local development
 * Updated Docker image (development only)
-* Bump version number
+* Bump version number.
 
 ````
 New files
