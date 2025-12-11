@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 1.7.3
+## Version 1.7.3.
 > Released on 12/12/2025
 
 * Added support for [call to action cards](https://ghost.org/help/cards/#call-to-action)
