@@ -73,7 +73,9 @@ If you want to use a language that is not in the list above, you can add it manu
 <script type="module">
   // Elm language
   import elm from 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/languages/elm.min.js';
-  window.hljs.registerLanguage('elm', elm);
+  if (typeof window !== 'undefined') {
+    window.hljs.registerLanguage('elm', elm);
+  }
 </script>
 ```
 
@@ -100,7 +102,11 @@ You can find all the available themes on [this page](https://cdnjs.com/libraries
 
 ## Line Numbers
 
-By default, code blocks will display line numbers, which aids in identifying and understanding the code better. However, if for some reason you wish to disable this functionality, you can do so by injecting the following code:
+::: warning
+Line numbers support has been removed in version 1.7.3 due to structural changes in the theme. If you need line numbers for your code blocks, please disable the library provided by the theme and implement your own solution.
+:::
+
+In versions prior to 1.7.3, code blocks displayed line numbers by default. If you wish to disable this functionality in older versions, you can do so by injecting the following code:
 
 ```html
 <script>
