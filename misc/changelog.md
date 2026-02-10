@@ -1,5 +1,24 @@
 # Changelog
 
+## Version 1.8.0
+
+> Released on 10/02/2026
+
+* Added a new custom setting [to show featured posts section in the homepage](/basics/theme-settings#featured-posts)
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* home.hbs
+* locales/de.json
+* locales/en.json
+* locales/es.json
+* package.json
+* src/docker-compose.yml
+````
+
 ## Version 1.7.3
 > Released on 12/12/2025
 
@@ -12,11 +31,13 @@
 * Bump version number
 
 ````
-New files
+New files:
+
 + src/bs-config.cjs
 + src/vite.config.js
 
-Modified files
+Modified files:
+
 * .gitignore
 * author.hbs
 * default.hbs
@@ -40,7 +61,8 @@ Modified files
 * src/sass/components/posts/_post-content.scss
 * src/sass/post.scss
 
-Removed files
+Removed files:
+
 - src/webpack.mix.js
 ````
 

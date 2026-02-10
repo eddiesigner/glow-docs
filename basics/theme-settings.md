@@ -214,6 +214,17 @@ This is especially useful if for some reason you don't want to display featured 
 This setting is available from version 1.4.0 of the theme.
 :::
 
+### Featured Posts
+If you want to display a section with featured posts at the top of the homepage (right after the hero section), you can easily do so with the `Show featured posts` setting.
+
+![](https://res.cloudinary.com/edev/image/upload/v1770697351/glow/CleanShot_2026-02-09_at_22.21.02_2x.png)
+
+It's important to mention that the number of posts shown in that section corresponds to the number you define in the `Latest posts limit` setting.
+
+::: info
+This setting is available from version 1.8.0 of the theme.
+:::
+
 ### Featured Tags
 
 Glow offers the possibility of displaying sections of featured tags on the homepage. You can choose the tags you want to highlight in this section, and there is no limit to the number of tags you can add.
